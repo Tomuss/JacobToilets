@@ -1,0 +1,30 @@
+<?xml version="1.0" ?> 
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+	<specVersion>
+		<major>1</major> 
+		<minor>0</minor> 
+	</specVersion>
+	<device>
+		<deviceType>urn:schemas-upnp-org:device:jacobtoilets:1</deviceType> 
+		<friendlyName>Jacob Les Toilettes</friendlyName> 
+		<manufacturer>JadoreLaLicheTeam</manufacturer> 
+		<manufacturerURL>http://www.jadorelaliche.org</manufacturerURL> 
+		<modelDescription>CyberLink Toilets Device</modelDescription> 
+		<modelName>Jacob</modelName> 
+		<modelNumber>1.0</modelNumber> 
+		<modelURL>http://www.jadorelaliche.org</modelURL> 
+		<serialNumber>666</serialNumber> 
+		<UDN>uuid:jadorelalichejacobdevice</UDN> 
+		<UPC>6666</UPC> 
+		<serviceList>
+			<service>
+				<serviceType>urn:schemas-upnp-org:service:poopootweet:1</serviceType> 
+				<serviceId>urn:schemas-upnp-org:serviceId:poopootweet:1</serviceId> 
+				<SCPDURL>/service/poopootweet/description.xml</SCPDURL> 
+				<controlURL>/service/poopootweet/control</controlURL> 
+				<eventSubURL>/service/poopootweet/eventSub</eventSubURL> 
+			</service>
+		</serviceList>
+		<presentationURL>http://www.jadorelaliche.org</presentationURL> 
+	</device>
+</root>

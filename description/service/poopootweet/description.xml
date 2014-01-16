@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<scpd xmlns="urn:schemas-upnp-org:service-1-0" >
+	<specVersion>
+		<major>1</major>
+		<minor>0</minor>
+	</specVersion>
+	<actionList>
+		<action>
+			<name>StartingPooPoo</name>
+		</action>
+		<action>
+			<name>PooPooOver</name>
+			<argumentList>
+				<argument>
+					<name>PooPooType</name>
+					<relatedStateVariable>PooPooType</relatedStateVariable>
+					<direction>out</direction>
+				</argument>
+			</argumentList>
+		</action>
+	</actionList>
+	<serviceStateTable>
+		<stateVariable sendEvents="yes">
+			<name>PooPooType</name>
+			<dataType>integer</dataType>
+		</stateVariable>
+	</serviceStateTable>
+</scpd>
