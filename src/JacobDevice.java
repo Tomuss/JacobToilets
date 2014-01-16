@@ -60,7 +60,7 @@ public class JacobDevice extends Device implements ActionListener, QueryListener
 			System.out.println("StartPooPoo Receive");
 			try {
 				Date t = Calendar.getInstance().getTime();
-				twit.updateStatus("Les toilettes sont occupées le "+t.toString()+"#startingPooPoo");
+				twit.updateStatus("Les toilettes sont occupées le "+t.toString()+" #startingPooPoo");
 			} catch (TwitterException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
